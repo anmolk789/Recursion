@@ -25,7 +25,7 @@ public class buildPathsInMaze {
 
 	public static void main(String[] args) {
 		//We Have provided a Maze in the form of 2-D Array
-		//Only Motion Allowed-Horizontal and Vertical(One at a time)
+		//Only Motion Allowed-Horizontal,Vertical and Diagonal(One at a time)
 		//You are standing at the left top and you have to make your way to right bottom with motion allowed
 		//Print the Path
 		
