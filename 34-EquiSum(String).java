@@ -11,6 +11,8 @@ public class EquiSum {
 		
 		//Recursion Call for 1st Set
 		equiSum(arr, index+1, subSet1+arr[index], answerSoFar1+arr[index]+" ", subSet2,answerSoFar2);
+		
+		//Recusrion call for 2nd Set
 		equiSum(arr, index+1, subSet1, answerSoFar1, subSet2+arr[index],answerSoFar2+arr[index]+" ");
 		
 	}
